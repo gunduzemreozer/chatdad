@@ -3,5 +3,11 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    block stylesheets
   body
-    block content
+    div(ng-app="chatdad", ng-cloak)
+      block content
+  
+  script(src="/angular/angular.min.js")
+  script(src="/javascripts/main.js")
+  block scripts

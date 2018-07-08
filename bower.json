@@ -1,0 +1,17 @@
+{
+  "name": "chatdad",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Gündüz Emre Özer <gunduzemreozer@hotmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chat",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/gunduzemreozer/chatdad",
+  "dependencies": {
+    "angular": "^1.7.2"
+  }
+}
