@@ -12,7 +12,7 @@ const users = require('./routes/users');
 
 const app = express();
 
-console.log(process.env.NAME);
+const db = require('./helpers/db')();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
